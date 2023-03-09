@@ -10,6 +10,9 @@ body{
 nav{
     grid-column: 1/4;
     grid-row: 1;
+
+    text-align: justify;
+    text-size-adjust: 100px;
 }
 
 #top{
