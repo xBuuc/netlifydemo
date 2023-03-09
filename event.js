@@ -1,3 +1,1 @@
-document.getElementById("click").addEventListener('click', function(){
-    document.getElementById('yourImageId').style.display = 'block'; 
-});
+document.getElementById("click").addEventListener('click', setTimeout(function() { document.getElementById('yourImageId').display('block'); },1000));
