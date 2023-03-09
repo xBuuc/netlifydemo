@@ -33,6 +33,12 @@ main{
  text-align: center;
 }
 
+button{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
 #side{
     grid-column: 3/4;
     grid-row: 2;
