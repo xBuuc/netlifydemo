@@ -1,6 +1,6 @@
 body{
     grid-template-columns: 150px 1fr 150px;
-    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     display: grid;
 
     background-color: bisque;
