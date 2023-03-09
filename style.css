@@ -10,7 +10,9 @@ body{
 nav{
     grid-column: 1/4;
     grid-row: 1;
+}
 
+#top{
     background-color: rgb(233, 204, 170);
 }
 
@@ -22,6 +24,8 @@ main{
 #side{
     grid-column: 3/4;
     grid-row: 2;
+
+    background-color: beige;
 }
 
 footer{
