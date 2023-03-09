@@ -11,12 +11,12 @@ nav{
     grid-column: 1/4;
     grid-row: 1;
 
-    text-align: center;
-    font-size: 50px;
 }
 
 #top{
     background-color: rgb(233, 204, 170);
+    text-align: center;
+    font-size: 50px;
 }
 
 main{
