@@ -1,3 +1,3 @@
 document.getElementById("click").addEventListener('click', setTimeout(function(){
-    document.getElementById('yourImageId').display('block'); 
+    document.getElementById('bloodtrail.png').display('block'); 
 }, 1000));
