@@ -1,3 +1,1 @@
-document.getElementById("click").addEventListener('click', function(){
-    dragon.hp -= 10;
-})
+document.getElementById("click").addEventListener('click', setTimeout(function() { document.getElementById('yourImageId').display('block'); }, 10 * 60 * 1000);)
