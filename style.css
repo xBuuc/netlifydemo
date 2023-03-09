@@ -24,7 +24,8 @@ main{
 }
 
 #content{
- 
+ padding: 10px;
+ align-content: center;
 }
 
 #side{
