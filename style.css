@@ -9,6 +9,13 @@ body{
     margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 nav{
     grid-column: 1/4;
     grid-row: 1;
@@ -21,22 +28,44 @@ nav{
     font-size: 50px;
 }
 
-main{
-    grid-column: 2/3;
-    grid-row: 2;
-
-    align-content: center;
-}
-
 img{
     height: 100%;
     width: 100%;
     position:absolute;
+    z-index: 101;
 }
 
-#content{
- padding: 10px;
- text-align: center;
+main{
+    grid-column: 2/3;
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+#bigbutton{
+    height: 384px;
+    width: 384px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+
+h1 {
+    position: absolute;
+    z-index: 100;
+    color: aliceblue;
+}
+
+#bigbutton > img{
+    position: absolute;
+    z-index: 98;
+    height: 384px;
+    width: 384px;
+
 }
 
 button{
@@ -52,7 +81,22 @@ button{
     background-color: beige;
 }
 
+ul{
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+a :hover{
+background-color: brown;
+}
+
 footer{
     grid-column: 1/4;
     grid-row: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center 
 }
