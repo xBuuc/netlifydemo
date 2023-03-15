@@ -22,10 +22,11 @@ nav{
 
 }
 
+
 #top{
     background-color: rgb(233, 204, 170);
-    text-align: center;
     font-size: 50px;
+
 }
 
 img{
@@ -81,15 +82,29 @@ button{
     background-color: beige;
 }
 
-ul{
+li{
     width: auto;
+    height: 36px;
     margin: 0;
     padding: 10px;
+    
+    justify-items: center;
     text-align: center;
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+  }
+
+a:visited{
+    text-decoration: none;
+    direction: none;
 }
 
 a :hover{
-background-color: brown;
+background-color: rgb(81, 143, 236);
 }
 
 footer{
@@ -99,4 +114,27 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center 
+}
+
+p{  
+    text-align: center;
+}
+
+#CookieClicker{
+    height: 100%;
+    width: 384px;
+
+    display:inline-block;
+    align-items: stretch;
+    justify-content: center;
+}
+
+#CookieClicker > h2{
+    text-align: center;
+}
+
+#CookieClicker > img{
+    height: 384px;
+    width: 384px;
+    z-index: 98;
 }
